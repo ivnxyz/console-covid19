@@ -35,11 +35,13 @@ async function main() {
   const y = []
 
   for (let i = 0; i < data.length; i += 1) {
-    // Configurar el formato de la fecha
-    const date = moment(data[i].Date).format('DD/MM')
+    if (data[i].Confirmed > 0) {
+      // Configurar el formato de la fecha
+      const date = moment(data[i].Date).format('DD/MM')
 
-    x.push(date)
-    y.push(data[i].Confirmed)
+      x.push(date)
+      y.push(data[i].Confirmed)
+    }
   }
 
   // Mostrar gráfica
