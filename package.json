@@ -1,0 +1,11 @@
+{
+  "name": "console-covid19",
+  "version": "1.0.0",
+  "description": "Muestra los datos del Covid-19 en la consola",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iván Martínez",
+  "license": "MIT"
+}
