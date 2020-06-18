@@ -1,5 +1,6 @@
 // Importar dependencias
 const axios = require('axios')
+const moment = require('moment')
 const blessed = require('blessed')
 const contrib = require('blessed-contrib')
 
@@ -34,7 +35,10 @@ async function main() {
   const y = []
 
   for (let i = 0; i < data.length; i += 1) {
-    x.push(data[i].Date)
+    // Configurar el formato de la fecha
+    const date = moment(data[i].Date).format('DD/MM')
+
+    x.push(date)
     y.push(data[i].Confirmed)
   }
 
