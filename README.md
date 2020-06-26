@@ -6,7 +6,7 @@ En este proyecto se usa la API "COVID19 API" que se encuentra en el siguiente en
 
 ### Instalación
 ```console
-npm install console-covid19 --global
+npm install console-covid19
 ```
 
 ### Ejecución
