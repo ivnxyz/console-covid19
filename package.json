@@ -4,7 +4,8 @@
   "description": "Muestra los datos del Covid-19 en la consola",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "covid19": "node index.js"
   },
   "author": "Iván Martínez",
   "license": "MIT",
